@@ -9,8 +9,7 @@
 [![Selenium](https://img.shields.io/badge/Selenium-4.25-00B200?style=flat-square&logo=selenium)](https://selenium.dev/)
 [![TestNG](https://img.shields.io/badge/TestNG-7.10-green?style=flat-square)](https://testng.org/)
 [![Allure](https://img.shields.io/badge/Allure-Reports-FF6838?style=flat-square)](https://docs.qameta.io/allure/)
-[![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat-square&logo=github)](https://github.com/features/actions)
-
+[![CI/CD with Maven](https://github.com/SahilSR81/End2End-QA-Automation-Framework/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/SahilSR81/End2End-QA-Automation-Framework/actions/workflows/e2e-test.yml)
 </div>
 
 ---
