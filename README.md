@@ -10,7 +10,6 @@
 [![TestNG](https://img.shields.io/badge/TestNG-7.10-green?style=flat-square)](https://testng.org/)
 [![Allure](https://img.shields.io/badge/Allure-Reports-FF6838?style=flat-square)](https://docs.qameta.io/allure/)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat-square&logo=github)](https://github.com/features/actions)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
 </div>
 
@@ -295,31 +294,16 @@ jobs:
 
 ### 🎯 Planned Enhancements
 
-- [ ] 📱 **Mobile Testing** - Appium integration for iOS/Android
 - [ ] 🌐 **API Testing** - REST API testing with REST Assured
 - [ ] 🔐 **Security Testing** - OWASP security checks
 - [ ] 📊 **Performance Testing** - JMeter integration
-- [ ] 🐳 **Docker Support** - Containerized test execution
 - [ ] ☁️ **Cloud Execution** - BrowserStack/Sauce Labs integration
-- [ ] 🤖 **AI/ML Features** - Visual regression testing with AI
 - [ ] 📈 **Advanced Analytics** - Trending reports & dashboards
 - [ ] 🔌 **Slack Integration** - Test results to Slack notifications
 - [ ] 📧 **Email Reports** - Automated report distribution
-- [ ] 🎬 **Video Recording** - Automatic test recording on failures
 - [ ] 🔄 **Test Retry Logic** - Smart retry mechanism for flaky tests
-- [ ] 🌍 **Multi-Language Support** - Support for multiple languages
 - [ ] 🚀 **Performance Optimization** - Faster test execution
 
-### 🚀 Roadmap
-
-```
-Q2 2026: Mobile Testing + Docker
-Q3 2026: API Testing + Cloud Integration  
-Q4 2026: Advanced Reporting + Slack/Email
-Q1 2027: AI-powered Test Generation
-```
-
----
 
 ## 📝 Test Coverage
 
@@ -331,20 +315,18 @@ Q1 2027: AI-powered Test Generation
 - 💳 Checkout Process
 - 🧾 Order Confirmation
 - 👤 User Profile Management
-- 💬 Product Reviews
 
 ### 📊 Coverage Stats
 
-- **Total Test Cases:** 50+
+- **Total Test Cases:** 64
 - **Page Objects:** 20+
 - **Utility Functions:** 30+
-- **Test Data Scenarios:** 100+
 
 ---
 
 ## 🤝 Contributing
 
-We ❤️ contributions! Here's how to contribute:
+I ❤️ contributions! Here's how to contribute:
 
 ### 1️⃣ Fork the Repository
 ```bash
@@ -353,8 +335,8 @@ Click "Fork" button on GitHub
 
 ### 2️⃣ Clone Your Fork
 ```bash
-git clone https://github.com/YOUR_USERNAME/e2e-qa-simulation-ecommerce.git
-cd e2e-qa-simulation-ecommerce
+git clone https://github.com/YOUR_USERNAME/e2e-qa-automation-framework.git
+cd e2e-qa-automation-framework
 ```
 
 ### 3️⃣ Create Feature Branch
@@ -401,35 +383,10 @@ git push origin feature/your-feature-name
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file for details.
-
-```
-MIT License - You are free to use this project for personal and commercial purposes!
-```
-
----
-
-## 🌟 Show Your Support
-
-If you found this project helpful, please ⭐ **Star this repository**! It helps us reach more people! 
-
----
-
-## 📞 Contact & Social
-
-- 👤 **Author:** Your Name
-- 📧 **Email:** your.email@example.com
-- 🔗 **LinkedIn:** [Your LinkedIn](https://linkedin.com)
-- 🐙 **GitHub:** [@yourusername](https://github.com/yourusername)
-- 🐦 **Twitter:** [@yourhandle](https://twitter.com)
-
----
 
 <div align="center">
 
-### Made with ❤️ by QA Automation Enthusiasts
+### Made with ❤️ by QA Automation Enthusiast
 
 **"Quality is not an act, it is a habit." – Aristotle**
 
