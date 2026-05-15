@@ -1,0 +1,8 @@
+searchKeyword,category,expectedResultsGreaterThan,minPrice,maxPrice,testCase
+Laptop,Computers,0,500,2000,ValidSearch_Electronics
+Phone,Electronics,0,200,1000,ValidSearch_Electronics
+Book,,0,10,100,ValidSearch_Books
+Invalid###Product,,0,0,5000,NoResultsSearch
+HP,Computers,0,400,1500,SearchWithBrand
+Apple,Computers,0,800,3000,AppleProducts
+Samsung,Electronics,0,300,2000,SamsungProducts

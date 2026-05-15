@@ -1,0 +1,9 @@
+paymentMethod,cardNumber,expiryDate,cvv,cardholderName,testCase,expectedResult
+CreditCard,4532111111111111,12/25,123,John Doe,ValidPayment_CreditCard,Success
+CreditCard,5425233010103442,06/26,456,Jane Smith,ValidPayment_CreditCard,Success
+CreditCard,378282246310005,08/24,789,Test User,ValidPayment_AMEX,Success
+CashOnDelivery,,,,ValidPayment_COD,Success
+BankTransfer,,,,ValidPayment_BankTransfer,Success
+CreditCard,4111111111111111,12/23,123,Invalid User,ExpiredCard,Failure
+CreditCard,4111111111111111,13/25,123,Test User,InvalidExpiryMonth,Failure
+CreditCard,4111111111111111,12/25,12,,BlankCVV,Failure

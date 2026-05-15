@@ -1,0 +1,9 @@
+email,password,testCase,expectedResult
+john.doe123@test.com,Test@12345,ValidLogin,Success
+jane.smith456@test.com,Secure@789,ValidLogin,Success
+invalid@email.com,WrongPassword,InvalidCredentials,Failure
+john.doe123@test.com,WrongPassword,IncorrectPassword,Failure
+,Test@12345,BlankEmail,Failure
+john.doe123@test.com,,BlankPassword,Failure
+,TestPassword,BothFieldsBlank,Failure
+nonexistent@user.com,Test@12345,UnregisteredUser,Failure

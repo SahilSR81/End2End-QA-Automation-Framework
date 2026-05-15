@@ -1,0 +1,7 @@
+firstName,lastName,email,password,confirmPassword,gender,country,city,address,zipCode,phoneNumber,testCase,expectedResult
+John,Doe,john.doe123@test.com,Test@12345,Test@12345,Male,United States,New York,123 Main St,10001,5551234567,ValidRegistration,Success
+Jane,Smith,jane.smith456@test.com,Secure@789,Secure@789,Female,United States,Los Angeles,456 Oak Ave,90001,5559876543,ValidRegistration,Success
+,,invalid@email,Pass123,Pass123,Male,United States,Chicago,789 Pine Rd,60601,5552223333,BlankFirstLastName,Failure
+TestUser,Test,,Pass@1234,Pass@1234,Male,United States,Boston,321 Elm St,02101,5553334444,BlankEmail,Failure
+User,Test,user@test.com,abc,abc,Male,United States,Seattle,654 Maple Dr,98101,5554445555,WeakPassword,Failure
+Test,User,test@test.com,Pass@123,Pass@456,Male,United States,Denver,987 Birch Ln,80201,5555556666,PasswordMismatch,Failure

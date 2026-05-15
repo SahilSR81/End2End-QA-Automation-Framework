@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E2E QA Automation Suite" parallel="classes" thread-count="2">
+
+    <parameter name="browser" value="chrome"/>
+
+    <listeners>
+        <listener class-name="com.ecommerce.tests.listeners.TestListener"/>
+    </listeners>
+
+    <test name="HomePage Tests">
+        <classes>
+            <class name="com.ecommerce.tests.HomePageTest"/>
+        </classes>
+    </test>
+
+    <test name="Registration Tests">
+        <classes>
+            <class name="com.ecommerce.tests.RegisterPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.ecommerce.tests.LoginPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Product Tests">
+        <classes>
+            <class name="com.ecommerce.tests.ProductPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart Tests">
+        <classes>
+            <class name="com.ecommerce.tests.CartPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Tests">
+        <classes>
+            <class name="com.ecommerce.tests.CheckoutPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Payment Tests">
+        <classes>
+            <class name="com.ecommerce.tests.PaymentPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Order Confirmation Tests">
+        <classes>
+            <class name="com.ecommerce.tests.OrderConfirmationPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Order History Tests">
+        <classes>
+            <class name="com.ecommerce.tests.OrderHistoryPageTest"/>
+        </classes>
+    </test>
+
+    <test name="My Account Tests">
+        <classes>
+            <class name="com.ecommerce.tests.MyAccountPageTest"/>
+        </classes>
+    </test>
+
+    <test name="End-To-End Flow">
+        <classes>
+            <class name="com.ecommerce.tests.EndToEndFlowTest"/>
+        </classes>
+    </test>
+
+</suite>

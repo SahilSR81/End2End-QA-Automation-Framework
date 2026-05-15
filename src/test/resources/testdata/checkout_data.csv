@@ -1,0 +1,6 @@
+firstName,lastName,address,city,country,zipCode,phoneNumber,shippingMethod,testCase,expectedResult
+John,Doe,123 Main St,New York,United States,10001,5551234567,Standard,ValidCheckout_Standard,Success
+Jane,Smith,456 Oak Ave,Los Angeles,United States,90001,5559876543,Express,ValidCheckout_Express,Success
+,,789 Pine Rd,Chicago,United States,60601,5552223333,Standard,BlankFirstLastName,Failure
+Test,User,321 Elm St,,United States,02101,5553334444,Standard,BlankCity,Failure
+Demo,User,,Boston,United States,02101,5554445555,Standard,BlankAddress,Failure
