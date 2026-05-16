@@ -41,7 +41,12 @@ jobs:
 
     - name: Generate Allure Report
       if: always()
-      run: mvn allure:report
+      run: |
+        if [ -d target/allure-results ]; then
+          mvn allure:report
+        else
+          echo "No Allure results directory found; skipping report generation."
+        fi
 
     - name: Upload Allure Results
       if: always()
