@@ -10,6 +10,7 @@
 [![TestNG](https://img.shields.io/badge/TestNG-7.10-green?style=flat-square)](https://testng.org/)
 [![Allure](https://img.shields.io/badge/Allure-Reports-FF6838?style=flat-square)](https://docs.qameta.io/allure/)
 [![CI/CD with Maven](https://github.com/SahilSR81/End2End-QA-Automation-Framework/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/SahilSR81/End2End-QA-Automation-Framework/actions/workflows/e2e-test.yml)
+[![E2E QA Automation Tests](https://github.com/SahilSR81/End2End-QA-Automation-Framework/actions/workflows/maven-test.yml/badge.svg)](https://github.com/SahilSR81/End2End-QA-Automation-Framework/actions/workflows/maven-test.yml)
 </div>
 
 ---
