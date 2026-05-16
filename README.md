@@ -25,7 +25,6 @@
 - [📊 CI/CD Pipeline](#-cicd-pipeline)
 - [📈 Future Improvements](#-future-improvements)
 - [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
 
 ---
 
