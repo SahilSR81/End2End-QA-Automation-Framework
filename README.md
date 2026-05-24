@@ -201,14 +201,6 @@ mvn clean test -Dparallel=true -DthreadCount=3
 
 ## 📊 CI/CD Pipeline
 
-### 🔄 What is CI/CD?
-
-**CI/CD** = Continuous Integration / Continuous Deployment
-- 🤖 Automatically runs your tests every time you push code
-- ✅ Ensures code quality before merging
-- 📊 Generates beautiful reports automatically
-- 🚀 Makes deployment safe and reliable
-
 ### 🎯 How CI/CD Works in This Project
 
 Our **GitHub Actions** pipeline automatically:
